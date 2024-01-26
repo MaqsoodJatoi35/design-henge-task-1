@@ -1,0 +1,50 @@
+.testinomials {
+  background-color: rgba(10, 140, 220, 0.5);
+  padding: 50px 0px;
+}
+
+.testinomials-container {
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: black;
+  color: #ffff;
+}
+
+.carousel {
+  width: 80%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 10px;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-indicators button {
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+  border: 1px solid green !important;
+}
+
+@media (max-width: 992px) {
+  .heading-testimonials {
+    font-size: 17px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-testimonials {
+    font-size: 16px;
+    padding-bottom: 14px;
+  }
+}
